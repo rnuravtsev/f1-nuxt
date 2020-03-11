@@ -1,6 +1,8 @@
 {
-  "name": "vuexy-nuxt-dashboard",
-  "version": "4.2.0",
+  "name": "test-nuxt",
+  "version": "1.0.0",
+  "description": "My groovy Nuxt.js project",
+  "author": "studiobp",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -10,6 +12,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "bootstrap": "^4.4.1",
+    "nuxt": "^2.0.0",
     "@chenfengyuan/vue-countdown": "^1.1.2",
     "ag-grid-community": "^21.0.1",
     "ag-grid-vue": "^21.0.1",
