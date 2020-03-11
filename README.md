@@ -6,10 +6,13 @@
 
 ``` bash
 # install dependencies
-$ npm install
+$ yarn install
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+$ yarn run dev
+
+# serve with hot reload no-ssr
+$ yarn run dev-spa
 
 # build for production and launch server
 $ npm run build

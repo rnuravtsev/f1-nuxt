@@ -1,14 +1,18 @@
 <template>
   <div>
     <Navbar />
+    <VerticalNavMenu />
     <nuxt />
   </div>
 </template>
 <script>
-import  Navbar from '@/components/Navbar';
+import  Navbar from '@/components/Navbar'
+import VerticalNavMenu from '@/components/VerticalNavMenu'
+
 export default {
   components: {
-    Navbar
+    Navbar,
+    VerticalNavMenu
   }
 }
 </script>
