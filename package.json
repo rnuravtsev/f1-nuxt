@@ -1,0 +1,19 @@
+{
+  "name": "test-nuxt",
+  "version": "1.0.0",
+  "description": "My groovy Nuxt.js project",
+  "author": "studiobp",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "dev-spa": "nuxt --spa",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
