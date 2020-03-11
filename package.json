@@ -3,9 +3,11 @@
   "version": "4.2.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "nuxt",
+    "dev-spa": "nuxt --spa",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@chenfengyuan/vue-countdown": "^1.1.2",
